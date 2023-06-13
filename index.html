@@ -17,3 +17,55 @@
           os doces nao sao apenas bonitos tambem sao deliçiosos.</p>
     </body>
 </html>
+ 
+:root{
+    --branco-principal: #FFFFFF;
+--cinza-secundario: #C0C0C0;
+--botao-azul: #167BF7;
+--cor-de-fundo: #00030C;
+}
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+}
+* {
+    margin: 0;
+    padding: 0;
+    }
+
+&lt;!DOCTYPE html&gt;
+&lt;head&gt;
+    &lt;title&gt;Alura Plus&lt;/title&gt;
+&lt;meta charset=”UTF-8”&gt;
+&lt;meta name=”viewport” content=&quot;width=device-width,initial-scale&quot;&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot;&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;section class=&quot;container principal&quot;&gt;
+    &lt;h1&gt;Com o Combo+, você pode aproveitar a Alura+ e o Alura Língua por
+um preço único.&lt;/h1&gt;  
+    &lt;img src=&quot;img/Combo.png&quot; alt=&quot;O combo+ é a junção do alura+ e o alura
+língua&quot;&gt;
+    &lt;a href=&quot;ww.alura.com.br&quot; class=&quot;container_botao&quot;&gt; Assine por 12x de
+R$ 120,00* &lt;/a&gt;
+    &lt;/section&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+{
+    margin: 0;
+    padding: 0;
+    }
+    .principal {
+        background-image: url(img/Background.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        }
+        .container {
+            height: 100vh;
+            }
+            .container_botao {
+                background-color: var(--botao-azul);
+                border-radius: 5px;
+                padding: 1em;
+                color: var(--branco-principal);
